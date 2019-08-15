@@ -99,11 +99,13 @@ export default {
     .btnList
       display flex
       justify-content center
+      flex-wrap wrap
       .btnItem
+         cursor pointer
          padding 6px 10px
          background #46bd87
          border-radius 4px
-         margin-left 6px
+         margin 4px
          color #fff
   .features
     border-top 1px solid $borderColor
